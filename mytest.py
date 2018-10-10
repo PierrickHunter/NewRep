@@ -8,7 +8,7 @@ class mytest(unittest.TestCase):
 
 
     def test_score_joseph(self):
-        self.assertEqual(m.calculer_score("Joseph", "16"), "66")
+        self.assertEqual(m.calculer_score("Joseph", "16"), "66")		#MODIFIE
 
     def test_score_marie(self):
         self.assertEqual(m.calculer_score("Marie", "33"), "50")
