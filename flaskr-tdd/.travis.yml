@@ -1,0 +1,11 @@
+language: python
+
+#python 3.6 workaround for travis
+sudo: required
+dist: xenial
+
+python:
+  - 3.6
+  
+script:
+  - python app-test.py
