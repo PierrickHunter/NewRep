@@ -1,7 +1,7 @@
 langage : python
 
 python:
-- 3.6
+ - 3.6
 
 script:
-- python TDD.py
+ - python TDD.py
